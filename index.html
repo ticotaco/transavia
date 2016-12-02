@@ -1,0 +1,145 @@
+# transavia
+Project web
+<!DOCTYPE html>
+<html lang="nl">	
+<head>
+	<title>Transavia verhalen</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="slick/theme/slick-theme.css"/>
+</head>
+<body>
+	<header class="navigatiebar">
+		<nav>	
+			<ul>
+				<li id="home"></li>
+				<li><a href="#">Verhalen</a></li>
+				<li><a href="#">Mijn lijsten</a></li>
+				<li><a href="#">Likes</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</nav>
+		<section class="search">
+				<label for="search">Zoeken </label>
+				<input type ="text" placeholder="Verhaal 98" id="search" required>
+		</section>
+	</header>
+	<section id="bighead">
+		<article id="information">
+			<h3 class="white">Meeste aantal likes</h3>
+			<div>
+				<h3 class="white">35</h3>
+			</div>
+		</article>
+		<article id="preview">
+			<header>
+				<h2>Voetbalanalisten(1)</h2>
+			</header>
+			<article>
+				<p>Jack van Gelder: Jongens, we hebben net gekeken naar Max Molovich die, samen met zijn slapende zoon op zoek ging naar Stijloefeningen van Queneau. Wat vonden we ervan? Hugo Borst: Tja. Wat zal ik zeggen?.....</p>
+			</article>
+			<footer>
+				<div class="button primary_button">Verder lezen</div>
+			</footer>
+		</article>
+			<div id="headerlogo"></div>
+	</section>
+	<section id="groepen">
+		<header>
+			<ul>
+				<li class="selected"><a href="#">Imitatie</a></li>
+				<li><a href="#">Rolplay</a></li>
+				<li><a href="#">Emotie</a></li>
+				<li><a href="#">Sport</a></li>
+				<li><a href="#">Comedy</a></li>
+				<li><a href="#">Entertainment</a></li>
+				<li><a href="#">Kort</a></li>								
+			</ul>
+		</header>
+		<section>
+			<ul>
+				<li><a href="#">Johan Cruijff</a></li>
+				<li><a href="#">Beroemd</a></li>
+				<li><a href="#">Jeroen Krabbe</a></li>
+				<li><a href="#">Eric Lucassen</a></li>
+				<li><a href="#">Geert Wilders</a></li>
+				<li><a href="#">Martin Bril</a></li>
+				<li><a href="#">Nichterig</a></li>	
+			</ul>
+		</section>
+		<div>
+			<div class="button secondary_button">Meer imitatie</div>
+		</div>
+	</section>
+
+
+
+<!-- 
+SLIDER CODE FROM FOLLOWING LINK
+http://kenwheeler.github.io/slick/
+https://codepen.io/leggomuhgreggo/pen/emqZNB
+-->
+	<section id="verhalen">
+		<header>
+			<h2>Verhalen</h2>
+			<section>
+				<div>
+					<h3>Sorteer</h3>
+					<p>Abc</p>
+				</div>
+				<div>
+					<h3>Volgorde</h3>
+					<p>-></p>
+				</div>
+			</section>
+		</header>
+		<main class="slider">
+		  	<article class="slide">
+		    	<div class="img-responsive"></div>
+		    	<h3>Johan Cruijff</h3>
+		  	</article>
+		  	<article class="slide">
+		    	<div class="img-responsive"></div>
+		    	<h3>Notitie</h3>
+		  	</article>
+		  	<article class="slide">
+		    	<div class="img-responsive"></div>
+		    	<h3>Essentie</h3>
+		  	</article>
+		  	<article class="slide">
+		    	<div class="img-responsive"></div>
+		    	<h3>Droom</h3>
+		  	</article>
+		  	<article class="slide">
+		    	<div class="img-responsive"></div>
+		    	<h3>Verrast</h3>
+		  	</article>
+			<article class="slide">
+		    	<div class="img-responsive"></div>
+		    	<h3>Verhalend</h3>
+		  	</article>
+			<article class="slide">
+		    	<div class="img-responsive"></div>
+		    	<h3>Hardboiled</h3>
+		  	</article>
+		</main>
+	</section>
+	<footer>
+		<H3>Footer</H3>
+	</footer>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+$('.slider').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 5
+});
+  </script>
+
+</body>
+
+</html>
