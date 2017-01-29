@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="nl">	
+<head>
+	<title>Transavia verhalen</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header>
+		<nav>	
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Mijn lijsten</a></li>
+				<li><a href="#">Likes</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<section id="bighead">
+		<article>
+			<h3>Meeste aantal likes</h3>
+			<div>
+				<h3>35</h3>
+			</div>
+		</article>
+		<article>
+			<header>
+				<h2>Voetbalanalisten(1)</h2>
+			</header>
+				<p>Jack van Gelder: Jongens, we hebben net gekeken naar Max Molovich die, samen met zijn slapende zoon op zoek ging naar Stijloefeningen van Queneau. Wat vonden we ervan? Hugo Borst: Tja. Wat zal ik zeggen?.....</p>
+			<footer>
+				<div class="button primary_button">Verder lezen</div>
+			</footer>
+		</article>
+		<div></div>
+	</section>
+	<section id="verhalen">
+		<header>
+			<section id="filter_dropdown">
+					<h2>99 Verhalen</h2>
+					<article>
+						<h3>Sorteren</h3>
+						<div>
+							<h4 id="sort_toggle1">Likes</h4>
+							<img src="images/icons/arrow-down.png" id="sort_toggle2" alt="Toggle de richting van sorteren">	
+						</div>
+					</article>
+					<article>
+						<h3>Lengte</h3>
+					</article>
+					<article>
+						<h3>Of</h3>
+						<form>
+							<input type="text" name="search" placeholder="Zoeken..">
+						</form>
+					</article>
+					<div class="button secondary_button" id="filter_knop">Filter opties ▼</div>
+			</section>
+
+		</header>
+		<main>
+			<article>
+				<div>
+				</div>
+				<aside>
+					<div>
+						<h4>18</h4>
+						<img src="images/icons/like.png" alt="Het aantal likes van dit artikel">
+						<h4>3</h4>
+						<img src="images/icons/comment.png" alt="Het aantal comments van dit artikel">
+					</div>
+					<h4>Extra lang</h4>
+				</aside>
+				<p>
+					Stationsplein, 12.00 uur in de middag De Cock met C-O-C-K. stapte de bus uit. In de kruiwagen die De Cock voortduwde lag zijn trouwe kompaan Vledder zijn roes uit te slapen. Sinds de dood van hun schepper, nu alweer zoveel maanden geleden, was Vledder óf bezig laveloos te worden óf bezig zijn roes uit te
+				</p>
+				<div>
+					<a href="baantjer.html">
+						<h3>De Cock en het raadsel van het verdwenen boek</h3>
+					</a>
+				</div>
+				<div class="ribbon-wrapper">
+					<div class="ribbon-front">
+						<img src="images/icons/hearth-pink.png" alt="Like this article">
+						<img src="images/icons/plus-pink.png" alt="Add this article to a list">
+					</div>
+					<div class="ribbon-edge-topleft"></div>
+					<div class="ribbon-edge-topright"></div>
+					<div class="ribbon-edge-bottomleft"></div>
+					<div class="ribbon-edge-bottomright"></div>
+					<div class="ribbon-back-left"></div>
+					<div class="ribbon-back-right"></div>
+				</div>
+			</article>
+			<article>
+				<div>
+				</div>
+				<aside>
+					<div>
+						<h4>35</h4>
+						<img src="images/icons/like.png" alt="Het aantal likes van dit artikel">
+						<h4>15</h4>
+						<img src="images/icons/comment.png" alt="Het aantal comments van dit artikel">
+					</div>
+					<h4>8 minuten</h4>
+				</aside>
+				<p>
+					Als bus 21 op het Centraal Station aftikt, stap ik uit. Mijn zoon doet een powernapje in z’n bolide. Collegavoetgangers maken hun meters met de kop in de kraag, geteisterd door regen en het rukwindenbeleid van de grote CEO in the sky. De main target van mijn bustrip is een visit aan de Openbare Bibliotheek 
+				</p>
+				<div>
+					<a href="managerstaal.html">
+						<h3>Managerstaal</h3>
+					</a>
+				</div>
+				<div class="ribbon-wrapper">
+					<div class="ribbon-front">
+						<img src="images/icons/hearth-pink.png" alt="Like this article">
+						<img src="images/icons/plus-pink.png" alt="Add this article to a list">
+					</div>
+					<div class="ribbon-edge-topleft"></div>
+					<div class="ribbon-edge-topright"></div>
+					<div class="ribbon-edge-bottomleft"></div>
+					<div class="ribbon-edge-bottomright"></div>
+					<div class="ribbon-back-left"></div>
+					<div class="ribbon-back-right"></div>
+				</div>
+			</article>
+			<article>
+				<div>
+				</div>
+				<aside>
+					<div>
+						<h4>35</h4>
+						<img src="images/icons/like.png" alt="Het aantal likes van dit artikel">
+						<h4>7</h4>
+						<img src="images/icons/comment.png" alt="Het aantal comments van dit artikel">
+					</div>
+					<h4>9 minuten</h4>
+				</aside>
+				<p>
+					En daar stopt lijn 21 op exact de juiste tijd op precies de juiste plek op het Stationsplein. De deuren gaat open, de spanning is te snijden. En wie komt daar als eerste uit? Ja hoor, het is de felgroene kinderwagen waarin Molovich Jr. ligt te slapen, op de voet gevolgd door zijn vader
+				</p>
+				<div>
+					<a href="sportcommentaar.html">
+						<h3>Sportcommentaar</h3>
+					</a>
+				</div>
+				<div class="ribbon-wrapper">
+					<div class="ribbon-front">
+						<img src="images/icons/hearth-pink.png" alt="Like this article">
+						<img src="images/icons/plus-pink.png" alt="Add this article to a list">
+					</div>
+					<div class="ribbon-edge-topleft"></div>
+					<div class="ribbon-edge-topright"></div>
+					<div class="ribbon-edge-bottomleft"></div>
+					<div class="ribbon-edge-bottomright"></div>
+					<div class="ribbon-back-left"></div>
+					<div class="ribbon-back-right"></div>
+				</div>
+			</article>
+			<article>
+				<div>
+				</div>
+				<aside>
+					<div>
+						<h4>35</h4>
+						<img src="images/icons/like.png" alt="Het aantal likes van dit artikel">
+						<h4>15</h4>
+						<img src="images/icons/comment.png" alt="Het aantal comments van dit artikel">
+					</div>
+					<h4>7 minuten</h4>
+				</aside>
+				<p>
+					In principe is het dus zo dat je uit Bus 21 stapte en op weg was naar de Openbare Bibliotheek om Stijloefeningen van Raymond Queneau te lenen. Je zocht er dus zeg maar al een tijdje naar, maar het was nergens te vinden, dus daarom moest het wel in de bibliotheek te vinden zijn
+				</p>
+				<div>
+					<h3>Johan Cruijff</h3>
+				</div>
+				<div class="ribbon-wrapper">
+					<div class="ribbon-front">
+						<img src="images/icons/hearth-pink.png" alt="Like this article">
+						<img src="images/icons/plus-pink.png" alt="Add this article to a list">
+					</div>
+					<div class="ribbon-edge-topleft"></div>
+					<div class="ribbon-edge-topright"></div>
+					<div class="ribbon-edge-bottomleft"></div>
+					<div class="ribbon-edge-bottomright"></div>
+					<div class="ribbon-back-left"></div>
+					<div class="ribbon-back-right"></div>
+				</div>
+			</article>	
+			<article>
+				<div>
+				</div>
+				<aside>
+					<div>
+						<h4>3</h4>
+						<img src="images/icons/like.png" alt="Het aantal likes van dit artikel">
+						<h4>5</h4>
+						<img src="images/icons/comment.png" alt="Het aantal comments van dit artikel">
+					</div>
+					<h4>4 minuten</h4>
+				</aside>
+				<p>
+					Een stofwolk ontneemt het zicht op de wegrijdende postkoets, die mij net heeft afgezet voor het station van dit door god verlaten prairydorp. Een tumbleweed tuimelt over het zanderige plein. Het bord van de verlaten saloon piept in de wind die me voortjaagt naar de Public Library. Het geluid van een lucifer die wordt afgestreken
+				</p>
+				<div>
+					<h3>Western</h3>
+				</div>
+				<div class="ribbon-wrapper">
+					<div class="ribbon-front">
+						<img src="images/icons/hearth-pink.png" alt="Like this article">
+						<img src="images/icons/plus-pink.png" alt="Add this article to a list">
+					</div>
+					<div class="ribbon-edge-topleft"></div>
+					<div class="ribbon-edge-topright"></div>
+					<div class="ribbon-edge-bottomleft"></div>
+					<div class="ribbon-edge-bottomright"></div>
+					<div class="ribbon-back-left"></div>
+					<div class="ribbon-back-right"></div>
+				</div>
+			</article>	
+						<article>
+				<div>
+				</div>
+				<aside>
+					<div>
+						<h4>3</h4>
+						<img src="images/icons/like.png" alt="Het aantal likes van dit artikel">
+						<h4>5</h4>
+						<img src="images/icons/comment.png" alt="Het aantal comments van dit artikel">
+					</div>
+					<h4>4 minuten</h4>
+				</aside>
+				<p>
+					Een stofwolk ontneemt het zicht op de wegrijdende postkoets, die mij net heeft afgezet voor het station van dit door god verlaten prairydorp. Een tumbleweed tuimelt over het zanderige plein. Het bord van de verlaten saloon piept in de wind die me voortjaagt naar de Public Library. Het geluid van een lucifer die wordt afgestreken
+				</p>
+				<div>
+					<h3>Sale</h3>
+				</div>
+				<div class="ribbon-wrapper">
+					<div class="ribbon-front">
+						<img src="images/icons/hearth-pink.png" alt="Like this article">
+						<img src="images/icons/plus-pink.png" alt="Add this article to a list">
+					</div>
+					<div class="ribbon-edge-topleft"></div>
+					<div class="ribbon-edge-topright"></div>
+					<div class="ribbon-edge-bottomleft"></div>
+					<div class="ribbon-edge-bottomright"></div>
+					<div class="ribbon-back-left"></div>
+					<div class="ribbon-back-right"></div>
+				</div>
+			</article>	
+		</main>
+	</section>
+	<script type="text/javascript" src="java/script.js"></script>
+</body>
+
+</html>
