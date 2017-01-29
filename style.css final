@@ -1,0 +1,808 @@
+* {
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: Nexa;
+	src: url("../fonts/Nexa_Regular");
+	font-weight: regular;
+}
+@font-face{
+	font-family:Nexa;
+	src: url("../fonts/Nexa_Bold");
+	font-weight: bold;
+}
+
+body{
+	background-color: #F3E5D8;
+	margin:0;
+	padding:0;
+	font-family: 'nexa';
+	font-weight: regular;
+}
+
+
+
+/*------------------- NAVIGATIONBAR ------------------- */
+body > header:first-child {
+	padding:0 0 0 2em;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	background-color: white;
+	font-family: 'nexa';
+	font-weight:bold;
+	color:#17d979;
+
+}
+header nav ul{
+	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  	display: flex;
+	flex-direction: row;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+}
+header nav li{
+	display:inline-block;
+	padding: 0.25em;
+  	height: 2em;
+  	margin-right:0.5em;
+  	line-height: 1.25em;
+  	font-weight: bold;
+  	font-size: 1em;
+  	text-align: center;
+}
+header nav li:last-child{
+	margin-right:0;
+}
+header nav a{
+	font-family: 'nexa';
+	font-weight:bold;
+	color:#17d979;
+}
+header nav a:hover{
+	color:#2800A0;
+}
+.search{
+	display:flex;
+	align-items:center;
+}
+
+/*------------------- BIG HEADER ------------------- */
+#bighead{
+	max-width: 100%;
+	height:100%;
+	background-image:  url(../images/header/sun.png), url(../images/header/spullen.png), url(../images/header/header.png);
+	background-position: left top, right bottom, center top;
+	background-size: 30%, 100%, cover;
+	background-repeat:no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+@media screen and (min-width: 40em) {
+	#bighead{
+		background-size: 20%, 80%, cover;
+	}
+}
+@media screen and (min-width: 60em) {
+	#bighead{
+		background-size: 15%, 40%, cover;
+	}
+}
+#bighead *{
+	display: flex;
+	justify-content: center;
+}
+
+
+/* ---------- INFORMATION PREVIEW BLOK ---------- */
+#bighead > article:nth-of-type(1){
+	padding:0 1em 1em 1em;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	background-color:#17d979;
+	border-radius:0.5rem;
+	margin-bottom:0.5em;
+}
+#bighead > article:nth-of-type(1) div{
+	background-size:contain ;
+	background-image: url("../images/hartje.png");
+	background-repeat:no-repeat;
+	background-position: right;
+	align-items: center;
+}
+ #bighead > article:nth-of-type(1){
+ 	order:3;
+ 	width:50%;
+	height:7em;
+}
+#bighead > article:nth-of-type(1) h3{
+	color:white;
+	}
+/* ---------- TEKST PREVIEW BLOK ---------- */
+#bighead > article:nth-of-type(2){
+	display: flex;
+	flex-direction:column ;
+	justify-content:space-between;
+	background-color:rgba(255,255,255,.8);
+	border-radius:0.5rem;
+	width:90%;
+	margin: 0.5em 0;
+	max-width:25em;
+}
+#bighead article:nth-of-type(2) header{
+	background-color:white;
+	border-radius:0.5rem 0.5rem 0 0;
+}
+#bighead article:nth-of-type(2) p{
+	padding:0 2em;
+
+}
+
+#bighead article:nth-of-type(2) h2{
+	color:#17D979;
+	}
+#bighead article:nth-of-type(2) footer{
+	background-color:white;
+	border-radius:0 0 0.5rem 0.5rem;
+	padding:0.5em;
+}
+/* ---------- LOGO BLOK ---------- */
+#bighead > div{
+	width:80%;
+	height:4em;
+	order:4;
+}
+
+#bighead > div{
+	background-size:contain ;
+	background-image: url("../images/transavia_logo_wide.png");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+/*------------------- MEDIA ------------------- */
+/*------------------- WIDTH ------------------- */
+@media screen and (min-width: 30em) {
+#bighead > article:nth-of-type(2){
+	width:80%;
+}
+#bighead > div{
+	width:75%;
+	height:5em;
+}
+ #bighead > article:nth-of-type(1){
+ 	order:3;
+ 	width:10em;
+	height:8em;
+}
+}
+@media screen and (min-width: 40em) {
+#bighead{
+	padding: 0 1em;
+	height:30em;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+		flex-direction: row;
+
+}
+#bighead > article:nth-of-type(2){
+	display: flex;
+	flex-direction:column ;
+	justify-content:space-between;
+	background-color:rgba(255,255,255,.9);
+	border-radius:0.5rem;
+	width:30em;
+	margin: 0 1em;
+	/*padding:0em 2em 1em 2em;*/
+}
+#bighead > div{
+	background-image: url("../images/transavia_logo.png");
+}
+#bighead > div, #bighead > article:nth-of-type(1){
+	width:10em;
+	height:8em;
+} 
+#bighead > article:nth-of-type(1){
+ 	order:0;
+ }
+}
+
+/*------------------- VERHALEN HEADER ------------------- */
+#verhalen{
+	background-color: #F3E5D8;
+	height:100%;
+	max-width:100%;
+}
+#verhalen header{
+	padding:1em 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:#2800A0;
+}
+#verhalen header section{
+	background-color:rgba(255,255,255,.6);
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	border-radius:0.5rem;
+	width: 80%;
+	height:17em;
+	min-height:100%;
+	padding:0 1em;
+	margin:1em 0
+	    transition: max-height 0.5s ease-out;
+}
+#verhalen header section h2{
+	width: 100%;
+	text-align: center;
+	margin: 0.5em 0 0 0;
+}
+#verhalen header section > div{
+	margin: 1em 0;
+}
+
+#verhalen header section article:nth-of-type(1){
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+#verhalen header section article:nth-of-type(1) > h3{
+	margin:0.5em 0 0 0;
+}
+#verhalen header section article:nth-of-type(1) div{
+	padding:0;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+}
+#verhalen header section article:nth-of-type(1) div > h4{
+	margin: 0 auto 0 2em;
+	cursor: pointer;
+}
+#verhalen header section article:nth-of-type(2){
+	align-items: center;
+	justify-content: center;
+	display: none;
+	flex-direction: column
+	width:100%;
+}
+#verhalen header section article:nth-of-type(3){
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	width:100%;
+}
+#verhalen header section article:nth-of-type(3) > h3{
+	margin:0;
+}
+#verhalen header section article:nth-of-type(3) form input[type="text"] {
+	margin:1em 0;
+}
+
+#verhalen header img{
+	cursor: pointer;
+	width:2em;
+	height: 2em;	
+	margin-right:2em;
+}
+/*------------------- MEDIA ------------------- */
+/*------------------- WIDTH ------------------- */
+@media screen and (min-width: 30em) {
+#verhalen header img{	
+	margin-right:5em;
+}
+#verhalen header section article:nth-of-type(1) div > h4{
+	margin-left: 5em;
+}
+}
+@media screen and (min-width: 40em) {
+#verhalen header section{
+	width: 24em;
+	min-height:12em;
+	height:100%;
+	padding:0 1em;
+	margin:1em 0
+}
+}
+
+/*------------------- VERHALEN MAIN ------------------- */
+#verhalen main{
+	padding:0 2em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom:2em;
+}
+#verhalen main > article{
+	width:15em;
+	height: 18em;
+	margin: 1.5em 1em;
+	padding:0;
+	border-radius:0.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: flex-end;
+	align-content:flex-end;
+-webkit-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.15);
+  transition: background-color 0.75s ease;
+
+}
+#verhalen main article > div:first-child{
+	width:80%;
+	height:12em;
+	margin-bottom: -1em;
+ 	background-color:#17D979;
+ 	border-radius:0.5rem;
+ 	background-size:100%;
+ 	background-repeat:no-repeat;
+	background-position: center;
+	-webkit-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.25);
+box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.25);
+}
+
+/*------------------- ICONS ARTICLES INLADEN ------------------- */
+
+#verhalen main article:nth-of-type(1) > div:first-child{
+	 background-image: url("../images/icons/baantjernew.png");
+}
+#verhalen main article:nth-of-type(2) > div:first-child{
+	 background-image: url("../images/icons/managerstaal.png");
+}
+#verhalen main article:nth-of-type(3) > div:first-child{
+	 background-image: url("../images/icons/sportcommentator.png");
+}
+#verhalen main article:nth-of-type(4) > div:first-child{
+	 background-image: url("../images/icons/cruijff.png");
+}
+#verhalen main article:nth-of-type(5) > div:first-child{
+	 background-image: url("../images/icons/western.png");
+}
+#verhalen main article:nth-of-type(6) > div:first-child{
+	 background-image: url("../images/icons/zes.png");
+}
+#verhalen main article:nth-of-type(6) > div:first-child{
+	 background-image: url("../images/icons/aanbieding.png");
+}
+#verhalen main article > div:nth-of-type(2){
+	color:#2800A0;
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	min-height: 4em;
+	max-height: 4em;
+	/*border-radius: 0 0 0.5rem 0.5rem;*/
+}
+#verhalen main article h3{
+	text-align: center;
+	display:block;
+	padding:0.1em 0;
+	margin:0;
+	width: 100%;
+	max-width:13em;
+}
+#verhalen a:visited{
+	color:#2800A0;
+}
+
+
+
+/*------------------- MEDIA ------------------- */
+/*------------------- WIDTH ------------------- */
+@media screen and (min-width: 70em) {
+#verhalen main{
+	padding: 0 4em;
+}
+}
+@media screen and (min-width: 75em) {
+#verhalen main{
+	padding: 0 8em;
+}
+}
+@media screen and (min-width: 100em) {
+#verhalen main{
+	padding: 0 15%;
+}
+}
+/*------------------- ASIDE WITH INFORMATION ------------------- */
+
+#verhalen main article aside:nth-of-type(1){
+	width: 6.5em;
+	height:2.5em;
+	background-color:#2800A0;
+	align-self: flex-end;
+	border-radius: 0 0.5rem ;
+	display:none;
+	flex-direction:column;
+	align-items: flex-end;
+	padding: 0.7em;
+}
+#verhalen main article aside div{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	margin-bottom:0.4em;
+}
+#verhalen main article aside > h4{
+	margin:0;
+	max-height:1em;
+}
+#verhalen main article aside h4{
+	color:white;
+	font-size:0.8em;
+}
+#verhalen main article aside div img{
+	width:1em;
+	height:1em;
+	margin:0 0 0 0.3em;
+}
+#verhalen main article p{
+	padding:0 1em;
+	margin-top:0.7em;
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+}
+#verhalen main article div > div:nth-of-type(1){
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+	padding:0 2em 0 2em;
+
+}
+#verhalen main article div div > img{
+	width:2em;
+	height:2em;
+}
+/*------------------- HOVER ARTICLE ------------------- */
+#verhalen main article:hover {
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.50);
+    box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.50);
+	max-height: 500px;
+}
+#verhalen main article:hover a:visited{
+	color:white;
+}
+#verhalen main article:hover > p{
+    max-height: 500px;
+    transition: max-height 0.50s ease-in;
+}
+#verhalen main article:hover > aside{
+	display:flex;
+}
+#verhalen main article:hover > div:nth-of-type(2){
+	color:white;
+	background-color: #2800a0;
+}
+#verhalen main article:hover > div:nth-of-type(3){
+	display:inline;
+}
+#verhalen main article:hover > div:nth-of-type(1){
+	display:none;
+}
+
+
+/*------------------- LOGIN ------------------- */
+#bighead > h1{
+	display:flex;
+	align-content:center;
+	margin:0;
+	padding: 1em 0.5em;
+	max-width: 80%;
+	max-height:80%;
+	background-color:white;
+	border-radius:0.5rem;
+		-webkit-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.25);
+    	background-color:rgba(255,255,255,.8);
+}
+#setup{
+	background-color: #F3E5D8;
+	padding:2em 0;
+	display:flex;
+	align-content:center;
+	justify-content: center;
+}
+#setup article header, #setup article fieldset, #setup article footer{
+	display: flex;
+	justify-content: center;
+}
+#setup article{
+	background-color:rgba(255,255,255,.6);
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	border-radius:0.5rem;
+	padding:0 0em;
+	width:90%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+#setup article footer{
+	padding:0 0em;
+	width:95%;
+	display:flex;
+	align-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#setup article fieldset label:nth-of-type(1), #setup article fieldset input:nth-of-type(1) {
+	display:none;
+	}
+#setup article fieldset legend{
+	display:none;
+}
+#setup article footer > div{
+	margin: 0.5em 0;
+}
+
+@media screen and (min-width: 50em) {
+#setup article{
+	background-color:rgba(255,255,255,.6);
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	border-radius:0.5rem;
+	padding:0 1em;
+	width:30%;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+#setup article footer{
+	width:100%;
+}
+#bighead > h1{
+	padding-bottom:1em;
+}
+}
+/*------------------- TEXT ------------------- */
+h1{
+	font-size: 3.5em;
+}
+h2{
+	font-size:1.75em;
+}
+h3{
+	font-size: 1.2em;
+}
+p{
+	font-family: 'Nexa';
+	font-size: 1em;
+	max-width: 50ch;
+}
+
+a {
+	text-decoration: none;
+}
+.white{
+	color:white;
+}
+.green{
+	color:#17D979;
+}
+.purple{
+	color:#2800A0;
+}
+/*------------------- BUTTONS ------------------- */
+.button{
+	color:white;
+	margin: 0;
+    padding: .4375em 1.5em .5625em;
+    border: 0;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    border-radius: 1.25em;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+}
+
+.primary_button{
+	background-color:#ff3268;
+	box-shadow: inset 0 -.1875em .0625em #ca2b55;
+}
+.secondary_button{
+	background-color:#2800A0;
+	box-shadow: inset 0 -.1875em .0625em #120145;	
+	}
+/*------------------- INPUT ------------------- */
+select, input{
+	color:#202020;
+	width:100%;
+	border:0.5px solid #62666F;
+	border-radius:0.5rem;
+	padding-left:0.3em;
+}
+select:hover{
+	border:1px solid #1800A0 ;
+}
+fieldset{
+	border:none;
+}
+input[type="text"] {
+	min-height: 1rem;
+    padding: 0 .5rem;
+    line-height: 2.3rem;
+    width: 100%;
+    display: block;
+    border: .0625rem solid #91a3b7;
+    color: #606060;
+    font-size: 1rem;
+    border-radius: .5rem;
+    -webkit-transition: border .2s linear,color .2s linear;
+    transition: border .2s linear,color .2s linear;
+    text-overflow: ellipsis;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+/*------------------- RIBBON
+ bron van de ribbon: http://www.css3d.net/ribbon-generator/#preview
+ vervolgens heb ik zelf de positie, hoogte, breedte, en kleur aangepast naar voorkeuren. 
+													 ------------------- */
+/* ribbon style */
+
+ .ribbon-wrapper {
+	-webkit-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.50);
+    box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.50);
+ 	display:none;
+	position: relative;
+	width:100%;
+	margin-bottom:-2.5em;
+}
+  .ribbon-front {
+
+	background-color: #FF3268;	height: 40px;
+	width:118%;
+	position: relative;
+	left:-20px;
+	z-index: 2;
+}
+
+  .ribbon-front,
+  .ribbon-back-left,
+  .ribbon-back-right
+{
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-topright,
+  .ribbon-edge-bottomleft,
+  .ribbon-edge-bottomright {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-topright {
+}
+
+  .ribbon-edge-bottomleft,
+  .ribbon-edge-bottomright {
+	top: 40px;
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-bottomleft {
+	left: -20px;
+	border-color: transparent #CA2B55 transparent transparent;
+}
+
+  .ribbon-edge-topleft {
+	top: -10px;
+	border-width: 10px 20px 0 0;
+}
+  .ribbon-edge-bottomleft {
+	border-width: 0 20px 0px 0;
+}
+
+  .ribbon-edge-topright,
+  .ribbon-edge-bottomright {
+	left: 100%;
+	border-color: transparent transparent transparent #CA2B55;
+}
+
+  .ribbon-edge-topright {
+	top: -10px;
+	border-width: 10px 0 0 20px;
+}
+  .ribbon-edge-bottomright {
+	border-width: 0 0 0px 20px;
+}
+
+  .ribbon-back-left {
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	width: 0px;
+	height: 40px;
+		z-index: 0;
+}
+
+  .ribbon-back-right {
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	width: 0px;
+	height: 40px;
+		z-index: 0;
+}
+/*------------------- VERHALEN MEDIA QUERIES ------------------- */
+main > img{
+	height:100%;
+	width:100%;
+	margin:0;
+}
+
+main > img:nth-of-type(1){
+	display:inline;
+}
+main > img:nth-of-type(2){
+	display:none;
+}
+main > img:nth-of-type(3){
+	display:none;
+}
+@media screen and (min-width: 30em) {
+	main > img:nth-of-type(1){
+		display:none;
+	}
+	main > img:nth-of-type(2){
+		display:inline;
+	}
+	main > img:nth-of-type(3){
+		display:none;
+	}
+}
+@media screen and (min-width: 70em) {
+	main > img:nth-of-type(1){
+		display:none;
+	}
+	main > img:nth-of-type(2){
+		display:none;
+	}
+	main > img:nth-of-type(3){
+		display:inline;
+	}
+}
